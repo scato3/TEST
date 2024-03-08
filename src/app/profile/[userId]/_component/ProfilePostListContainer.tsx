@@ -12,8 +12,11 @@ import { IProfilePost } from "../page";
 import ProfilePostCard from "./ProfilePostCard";
 import styles from "./profilePostListContainer.module.css";
 export default function ProfilePostListContainer({ userId }: { userId: number }) {
-  const searchParams = useSearchParams() || new URLSearchParams();
-  const profileTab = Number(searchParams.get("profileTab")) || 1;
+  const searchParams = useSearchParams();
+  let profileTab = 1;
+  if (searchParams !== null) {
+    profileTab = Number(searchParams.get("profileTab"));
+  }
   const [mounted, setMounted] = useState(false);
 
   const { data, fetchNextPage, hasNextPage, isFetching } = useInfiniteQuery<IProfilePost[], Error>({
