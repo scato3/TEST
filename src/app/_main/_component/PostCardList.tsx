@@ -36,8 +36,8 @@ export default function PostCardList() {
   };
 
   const searchParams = useSearchParams();
-  const tab = searchParams.get("tab");
-  const firstJoin = searchParams.get("join");
+  const tab = searchParams?.get("tab");
+  const firstJoin = searchParams?.get("join");
 
   const { data, fetchNextPage, hasNextPage, isFetching, isPending } = useInfiniteQuery<IPost[], Error>({
     queryKey: ["posts", "all", tab, userInfo.isLogin],
