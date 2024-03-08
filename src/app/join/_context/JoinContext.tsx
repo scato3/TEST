@@ -59,7 +59,7 @@ export const useJoinDataContext = () => {
 // DataContext의 Provider를 만드는 컴포넌트
 export const JoinContextProvider = ({ children }: { children: React.ReactNode }) => {
   const searchParams = useSearchParams();
-  const joinProcessType = searchParams.get("processType");
+  const joinProcessType = searchParams?.get("processType");
   const [data, setData] = useState<InitialData>(initialData);
 
   // 값을 변경하는 함수들
