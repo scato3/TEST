@@ -9,7 +9,7 @@ import styles from "./tabs.module.css";
 
 function Maintab() {
   const searchParams = useSearchParams();
-  const category = searchParams.get("tab");
+  const category = searchParams?.get("tab");
   const tabs = [
     { value: 0, label: "전체" },
     { value: 1, label: "이슈" },
