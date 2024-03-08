@@ -55,7 +55,7 @@ function Maintab() {
 
 function Profiletab({ userId }: { userId: number }) {
   const searchParams = useSearchParams();
-  const profileTab = Number(searchParams.get("profileTab"));
+  const profileTab = Number(searchParams?.get("profileTab"));
   const { data } = useQueryGetProfilePostData(userId);
   const [activeTab, setActiveTab] = useState<number>(0);
   const totalCount = data?.totalCount || 0;
