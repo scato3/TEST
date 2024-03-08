@@ -13,7 +13,7 @@ import ProfilePostCard from "./ProfilePostCard";
 import styles from "./profilePostListContainer.module.css";
 export default function ProfilePostListContainer({ userId }: { userId: number }) {
   const searchParams = useSearchParams();
-  const profileTab = Number(searchParams.get("profileTab") || 1) as number;
+  const profileTab = Number(searchParams.get("profileTab")) || 1;
   const [mounted, setMounted] = useState(false);
 
   const { data, fetchNextPage, hasNextPage, isFetching } = useInfiniteQuery<IProfilePost[], Error>({
