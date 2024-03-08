@@ -10,7 +10,7 @@
     "mock": "npx tsx watch ./src/mocks/http.ts"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^4.41.3",
+    "@netlify/plugin-nextjs": "3.9",
     "@tanstack/react-query": "^5.20.5",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.10",
