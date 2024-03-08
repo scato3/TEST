@@ -1,0 +1,49 @@
+.settingContainer {
+  max-width: 450px;
+  padding: 0 20px;
+}
+
+.changeBirthContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 21px;
+  height: 56px;
+}
+
+.changeBirth {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--title-400);
+}
+
+.userActionsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logoutBtn,
+.deleteBtn {
+  width: 100%;
+  height: 52px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border: 1px solid var(--body-400);
+  border-radius: 6px;
+  background-color: var(--background-100);
+}
+
+.logoutBtn {
+  margin-bottom: 10px;
+  color: var(--body-900);
+}
+
+.deleteBtn {
+  color: var(--state-wraning-red-300);
+}

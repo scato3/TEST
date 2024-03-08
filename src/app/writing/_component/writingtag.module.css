@@ -1,0 +1,89 @@
+.tagBox {
+  padding: 0 20px;
+}
+
+.tagInfoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--title-100);
+}
+
+.tagCountContainer {
+  display: flex;
+  align-items: center;
+}
+
+.tagCount {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--body-800);
+}
+
+.tagseperator {
+  align-items: center;
+  margin: 0 4px;
+  width: 1px;
+  height: 8px;
+  background-color: var(--body-600);
+}
+
+.tagCountMax {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--body-600);
+}
+
+.taginputContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagAddContainer {
+  align-items: center;
+  position: relative;
+  margin-right: 6px;
+  margin-bottom: 8px;
+  border: 1px solid var(--body-300);
+  border-radius: 100px;
+}
+
+.tagAdd {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: var(--title-100);
+  padding: 6px 12px 6px 12px;
+}
+
+.tagRemoveImg {
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.tagAdd::placeholder {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--body-600);
+}
+
+.errorMessage {
+  margin-top: -4px;
+  padding-left: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--state-wraning-red-300);
+}

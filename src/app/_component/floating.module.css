@@ -1,0 +1,9 @@
+.floatingContainer {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.floatingflexWrapper {
+  display: flex;
+  gap: 10px;
+}

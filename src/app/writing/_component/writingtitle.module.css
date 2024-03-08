@@ -1,0 +1,60 @@
+.titleBox {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  color: var(--title-400);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  border: 1px solid var(--body-500);
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px 2px rgba(219, 219, 219, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  background-color: var(--body-100);
+}
+
+.titleContainer.titleFocused {
+  border-color: var(--state-notification-orange-400);
+}
+
+.titleInput {
+  width: 100%;
+}
+
+.titleInput::placeholder {
+  color: var(--body-600);
+}
+
+.titleLengthContainer {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--body-600);
+}
+
+.titleLength {
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--state-notification-orange-300);
+}
+
+.seperator {
+  align-items: center;
+  margin: 0 4px;
+  width: 1px;
+  height: 8px;
+  background-color: var(--body-600);
+}

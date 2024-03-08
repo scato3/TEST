@@ -1,0 +1,19 @@
+.post_ul {
+  margin-top: 6px;
+  background-color: var(--background-100);
+}
+.post_list {
+  padding: 0 20px;
+}
+.no_content_btn {
+  border-radius: 100px;
+  border: 1px solid var(--main-primary-500);
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-primary-500);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  margin-top: 20px;
+}

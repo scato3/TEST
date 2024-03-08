@@ -1,0 +1,45 @@
+.info_container {
+  margin: 45px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.user_name_container {
+  margin-top: 4px;
+  display: flex;
+  gap: 2px;
+  color: var(--title-400);
+  align-items: center;
+  font-family: Pretendard;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.name_position {
+  position: relative;
+  top: -2px;
+}
+
+.user_email_area {
+  display: flex;
+  width: 158px;
+  padding: 4px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid var(--body-300);
+  color: var(--body-900);
+
+  /* Body/Body-3 */
+  font-family: Pretendard;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+}

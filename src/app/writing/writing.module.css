@@ -1,0 +1,25 @@
+.writingBox {
+  max-width: 450px;
+  background-color: var(--background-100);
+}
+
+.tagContainer {
+  margin-top: 20px;
+}
+
+.seperator {
+  margin: 20px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.93);
+}
+
+.writingVoteContainer {
+  margin: 0 20px;
+}
+
+.voteItem {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(----title-100);
+}

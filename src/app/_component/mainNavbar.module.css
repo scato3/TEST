@@ -1,0 +1,24 @@
+.nav {
+  padding: 0 20px;
+  position: fixed;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 100%;
+  max-width: 450px;
+  background-color: var(--background-100);
+}
+
+.user_icon {
+  margin-right: 20px;
+}
+.main_logo {
+  height: 31px;
+  position: relative;
+  top: 6px;
+}
+.right_icons {
+  display: flex;
+  margin-left: auto;
+  gap: 24px;
+}

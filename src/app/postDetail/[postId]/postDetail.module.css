@@ -1,0 +1,337 @@
+.postDetailBox {
+  max-width: 450px;
+  background-color: var(--background-100);
+  height: 100%;
+}
+
+.postDetailContainer {
+  margin: 18px 0 0 0;
+  background-color: var(--background-100);
+}
+.topPadding {
+  padding: 0 20px;
+}
+
+.userInfoContainer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.usermageContainer {
+  margin-right: 4px;
+}
+
+.userImageContainer {
+  margin-right: 10px;
+}
+
+.userName {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--title-200);
+  margin-right: 13px;
+}
+
+.userPostTime {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--body-900);
+}
+
+.topicContainer {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--main-primary-500);
+  padding: 6px 6px;
+  background-color: var(--body-200);
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.postContainer {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.postTitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--title-400);
+}
+
+.postContent {
+  min-height: 136px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: var(--title-100);
+}
+
+.tagContainer {
+  margin-top: 20px;
+  display: flex;
+  gap: 6px;
+}
+
+.tag {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--body-950);
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--body-200);
+}
+
+.voteContainer {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  margin-top: 20px;
+  height: 240px;
+  border: 1px solid var(--body-300);
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0px 0px 6px 2px rgba(219, 219, 219, 0.25);
+}
+
+.selectedOptionContainer {
+  height: 180px;
+}
+
+.voteButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.voteButtonImageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.upButton,
+.downButton {
+  width: calc(100% - 40px);
+  height: 52px;
+  border: 1px solid var(--body-400);
+  border-radius: 100px;
+  background-color: #ffffff;
+  color: #9d9d9d;
+  box-shadow: 0px 0px 6px 2px rgba(219, 219, 219, 0.25);
+}
+
+.upButton {
+  margin-top: 20px;
+}
+
+.downButton {
+  margin-top: 8px;
+}
+
+.upButton.selectedOption,
+.downButton.selectedOption {
+  color: var(--main-primary-500);
+  background-color: var(--main-primary-50);
+  border-color: var(--main-primary-600);
+}
+
+.upButton.upVoted {
+  background-color: #01d066;
+  color: #ffffff;
+}
+
+.downButton.downVoted {
+  background-color: #01d066;
+  color: #ffffff;
+}
+
+.userSelected {
+  color: var(--main-primary-500);
+  background-color: var(--main-primary-50);
+  border-color: var(--main-primary-600);
+}
+
+.sumVoterContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.sumVoterImageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sumVoter {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--body-800);
+}
+
+.voteSubmitButton {
+  width: calc(100% - 40px);
+  height: 46px;
+  border-radius: 6px;
+  color: var(--body-950);
+  background-color: var(--body-200);
+  border: 1px solid var(--body-400);
+  box-shadow: 0px 0px 6px 2px rgba(219, 219, 219, 0.25);
+  margin-top: 20px;
+}
+
+.voteSubmitButton.selectedOption {
+  background-color: var(--title-400);
+  color: var(--body-400);
+}
+
+.seperator {
+  margin: 40px 20px 20px;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.93);
+}
+
+.commentCount {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--title-400);
+  padding: 0 20px;
+  padding-top: 9px;
+}
+
+.commentCount span:first-child {
+  padding-right: 6px;
+}
+
+.commentRegContainer {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 0;
+  max-width: 410px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: var(--background-200);
+}
+
+.commentRegContainer input {
+  width: 100%;
+  overflow: auto;
+  padding-left: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--title-400);
+}
+
+.commentRegContainer input::placeholder {
+  color: var(--body-800);
+}
+
+.commentRegContainer button {
+  width: 44px;
+  height: 28px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  background-color: var(--body-300);
+  color: var(--body-900);
+  border-radius: 2px;
+  margin-left: auto;
+}
+
+.commentReg.isComment {
+  color: var(--title-400);
+}
+
+.commentListContainer {
+  margin-top: 14px;
+}
+
+.commentListContainer {
+  padding: 0 20px;
+  background-color: var(--background-100);
+}
+
+.commentorInfo {
+  display: flex;
+  align-items: center;
+}
+
+.commentorName {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--title-200);
+  margin-left: 6px;
+}
+
+.verticalLine {
+  width: 1px;
+  height: 6px;
+  background-color: var(--body-500);
+  margin: 0 8px;
+}
+.commentTime,
+.commentDay {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--body-800);
+  margin-right: 4px;
+}
+
+.userComment {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--body-950);
+}
+
+.commentSeperator {
+  margin: 20px 0;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.93);
+}
+.moreCommentButtonContainer {
+  padding: 0 20px;
+}
+.moreCommentButton {
+  width: 100%;
+  height: 52px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 21px;
+  color: var(--body-900);
+  border: 1px solid var(--body-400);
+  border-radius: 100px;
+}
+.comment_del {
+  margin-left: auto;
+  display: flex;
+  width: 42px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background: var(--body-200);
+  color: var(--body-950);
+
+  /* Caption/Caption-2 */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}

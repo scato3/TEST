@@ -1,0 +1,67 @@
+.join_name_container {
+  position: relative;
+}
+.text_field_container {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  margin-top: 24px;
+}
+.input_container {
+  display: flex;
+  width: 100%;
+  background-color: var(--background-200);
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+.check_btn {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--body-950);
+  text-decoration: underline;
+  min-width: 45px;
+}
+.input {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--title-400);
+}
+.ico {
+  margin-left: auto;
+}
+
+.validation_txt {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--state-notification-orange-500);
+  /* margin-top: 4px; */
+  position: absolute;
+  top: 60px;
+}
+.validation_txt.pass {
+  color: var(--main-primary-500);
+}
+
+.check_list {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.check_list_item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  min-width: 127px;
+}
+.check_list_item:last-child {
+  margin-top: -14px;
+}

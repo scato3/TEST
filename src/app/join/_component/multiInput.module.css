@@ -1,0 +1,42 @@
+.input_container {
+  display: flex;
+  gap: 6px;
+  position: relative;
+}
+.input_item {
+  padding: 18px 12px;
+  border-radius: 8px;
+  background: var(--background-200);
+  width: 44px;
+  height: 60px;
+  outline: none;
+  caret-color: #426bf2;
+  text-align: center;
+}
+.validation_txt {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  color: var(--main-primary-500);
+  /* margin-top: 4px; */
+  position: absolute;
+  top: 64px;
+  left: 18px;
+}
+.txt01 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--body-950);
+}
+.wran_txt {
+  color: var(--State-Notification-Orange-500, #ff7517);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+}

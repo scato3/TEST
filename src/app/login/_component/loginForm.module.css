@@ -1,0 +1,63 @@
+.form {
+  margin-top: 80px;
+}
+.input_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--body-400);
+  margin-bottom: 10px;
+  position: relative;
+}
+.input {
+  display: flex;
+  height: 60px;
+  padding: 14px 10px;
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+}
+.button {
+  font-size: 16px;
+}
+
+.login_btn {
+  border: 1px solid var(--body-400);
+  background: var(--background-100);
+  color: var(--body-800);
+  margin-top: 40px;
+  display: flex;
+  height: 52px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.login_btn.active {
+  border: 1px solid var(--main-primary-500);
+  color: var(--main-primary-500);
+}
+
+.link {
+  border-radius: 100px;
+  background: var(--title-400);
+  color: #fff;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.err_msg {
+  color: var(--state-wraning-red-300);
+  /* Caption/Caption-3 */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+}

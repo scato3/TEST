@@ -1,0 +1,19 @@
+.tag {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--body-200);
+  color: var(--body-950);
+
+  /* Caption/Caption-2 */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
+.primary {
+  color: var(--main-primary-500);
+  background: var(--background-100);
+}

@@ -1,0 +1,15 @@
+.input {
+  border-radius: 6px;
+}
+.input::placeholder {
+  color: var(--body-800);
+}
+.border_body_500 {
+  border: 1px solid var(--body-500);
+}
+.border_body_500:focus {
+  border-color: var(--state-notification-orange-400);
+}
+.caret_blue {
+  caret-color: #426bf2;
+}

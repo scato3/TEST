@@ -1,0 +1,77 @@
+.button {
+}
+.button.color_primary {
+  color: var(--main-primary-500);
+}
+
+.bg_primary {
+  background-color: var(--main-primary-500);
+  color: var(--body-100);
+}
+.bg_primary_50 {
+  background-color: var(--main-primary-50);
+  color: var(--main-primary-500);
+}
+.bg_secondary_300 {
+  background-color: var(--secondary-300);
+}
+.bg_background_200 {
+  background-color: var(--background-200);
+  color: var(--body-950);
+}
+.bg_background_100 {
+  background-color: var(--background-100);
+}
+.bg_body_100 {
+  background-color: var(--body-100);
+  color: var(--body-950);
+}
+.bg_body_200 {
+  background-color: var(--body-200);
+  color: var(--body-800);
+}
+.bg_title_400 {
+  background-color: var(--title-400);
+  color: var(--body-400);
+}
+
+.radius_none {
+  border-radius: 0;
+}
+.radius_rounded {
+  border-radius: 6px;
+}
+.radius_large {
+  border-radius: 100px;
+}
+.w_100 {
+  width: 100%;
+}
+
+.border_none {
+  border: none;
+}
+
+.border_primary {
+  border: 1px solid var(--main-primary-500);
+}
+
+.border_primary_600 {
+  border: 1px solid var(--main-primary-600);
+}
+
+.border_gray {
+  border: 1px solid var(--body-400);
+}
+
+.border_orange {
+  border: 1px solid var(--state-notification-orange-200);
+}
+
+.size_normal {
+  height: 52px;
+}
+
+.size_small {
+  height: 48px;
+}

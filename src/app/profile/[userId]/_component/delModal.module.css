@@ -1,0 +1,289 @@
+.loginModal {
+  width: 290px;
+  /* height: 390px; */
+  background-color: var(--body-200);
+  border-radius: 26px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.imageWrapper {
+  text-align: center;
+}
+
+.imageWrapper img {
+  margin: 30px auto 24px;
+}
+
+.easyloginMessage {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  display: flex;
+  margin-top: 37px;
+  justify-content: center;
+  align-items: center;
+  color: var(--title-400);
+}
+
+.shareloginMessage {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-top: 4px;
+  text-align: center;
+  color: var(--body-900);
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.loginButton {
+  width: 250px;
+  height: 52px;
+  background-color: var(--main-primary-500);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton span {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--main-secondary-100);
+}
+
+.nextLoginButton {
+  margin-top: 10px;
+  width: 250px;
+  height: 52px;
+  background-color: var(--body-200);
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.nextLoginButton span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main-primary-500);
+}
+
+.popupLoginModal {
+  position: relative;
+  width: 350px;
+  height: 100px;
+  background-color: var(--title-700);
+  opacity: 0.8;
+  border-radius: 10px;
+  padding-top: 16.5px;
+  text-align: center;
+}
+
+.curiousWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.curiousMessage p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--body-200);
+}
+
+.curiousXImage img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.curiousButton {
+  width: 148px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: var(--main-primary-500);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--body-100);
+  line-height: 18px;
+  gap: 10px;
+}
+
+.questionModal {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 236px;
+  background-color: var(--body-200);
+  border-radius: 26px;
+}
+
+.modalContent {
+  text-align: center;
+}
+
+.questionModalContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  padding-top: 37px;
+  color: var(--title-400);
+}
+
+.signModalContent {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding-top: 4px;
+  color: var(--body-950);
+}
+
+.questionButton {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 250px;
+  height: 52px;
+  border-radius: 6px;
+  background-color: var(--main-primary-500);
+  color: var(--main-secondary-100);
+}
+
+.cancelButton {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  width: 250px;
+  height: 52px;
+  border-radius: 6px;
+  background-color: var(--body-200);
+  color: var(--main-primary-500);
+}
+
+.DeleteModal {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 290px;
+  height: 236px;
+  background-color: var(--body-200);
+  border-radius: 26px;
+}
+
+.DeleteImageWrapper {
+  margin-top: 30px;
+}
+
+.DeleteModalMessage {
+  margin-top: 17px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.DeleteButton {
+  margin-top: 18px;
+  width: 250px;
+  height: 52px;
+  background-color: var(--main-primary-500);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--main-secondary-100);
+}
+
+.goHomeModal {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 388px;
+  background-color: var(--body-200);
+  border-radius: 26px;
+}
+
+.goHomeImageWrapper {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.goHomeModalMessage {
+  margin-top: 49px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--title-400);
+}
+
+.goMainModalMessage {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--body-950);
+}
+
+.CheckButton {
+  margin-top: 30px;
+  width: 250px;
+  height: 52px;
+  background-color: var(--main-primary-500);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--main-secondary-100);
+}
+
+.upLoadModal {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 388px;
+  background-color: var(--body-200);
+  border-radius: 26px;
+}
+
+.upLoadImageWrapper {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.upLoadMessage {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: var(--title-400);
+}
+
+.waitResultMessage {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--body-950);
+}
+
+.delConfirmImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 17px;
+  color: var(--title-400);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}

@@ -1,0 +1,14 @@
+.txt01 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--body-950);
+}
+.btn_container {
+  display: flex;
+  gap: 10px;
+}
+.button {
+}

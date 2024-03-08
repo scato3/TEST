@@ -1,0 +1,68 @@
+.profile_post_card_container {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--body-300);
+}
+.chip_container {
+  display: flex;
+  gap: 4px;
+  font-family: Pretendard;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+  margin-bottom: 8px;
+}
+.chip_container span {
+  border-radius: 4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--line-100);
+}
+.voted_chip {
+  color: var(--state-notification-orange-400);
+}
+.write_chip {
+  color: var(--main-primary-500);
+}
+.del_btn {
+  margin-left: auto;
+  border-radius: 4px;
+  padding: 2px 6px;
+  border: 1px solid var(--body-300, #ebebeb);
+  color: var(--body-800, #b8b8b8);
+
+  /* Caption/Caption-2 */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
+.title {
+  color: var(--title-400);
+  font-size: 14px;
+  line-height: 150%; /* 21px */
+}
+
+.content {
+  margin-top: 2px;
+  text-overflow: ellipsis;
+  text-align: start;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: var(--body-900);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.bottom {
+  margin-top: 10px;
+  color: var(--body-900);
+  /* Caption/Caption-2 */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
